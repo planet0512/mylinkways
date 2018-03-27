@@ -20,7 +20,7 @@ class Conformal_Coating extends Component {
                         <div className="card h-100"><Link to='/solutions/smt/product-detail'><div className="h-100"><img className="card-img-top img-responsive w-50 d-block mx-auto" src={hyperion}/> </div></Link>
                         <div className="card-body">
                     <h6 className="card-title">GPD - Hyperion点胶机</h6>
-                            <Link to="/solutions/hyperion"><a href="#" class="btn btn-primary">查看详情</a></Link>
+                            <Link to="/solutions/smt/hyperion"><a href="#" class="btn btn-primary">查看详情</a></Link>
 
                     </div>
                         </div>
@@ -29,7 +29,7 @@ class Conformal_Coating extends Component {
                         <div className="card h-100"><div className="h-100"><img className="card-img-bottom img-responsive w-75 d-block mx-auto" src={linkway_product}/></div>
                             <div className="card-body">
                                 <h6 className="card-title">Conformal Coating 检测+通孔焊点检测 - Linkways</h6>
-                                <Link to="/solutions/conformal-coating-prodcut"><a href="#" class="btn btn-primary ">查看详情</a></Link>
+                                <Link to="/solutions/smt/conformal-coating-product"><a href="#" class="btn btn-primary ">查看详情</a></Link>
                             </div>
                         </div>
                     </section>
@@ -37,7 +37,7 @@ class Conformal_Coating extends Component {
                         <div className="card h-100"><div className="h-100"><img className="card-img-bottom img-responsive" src={underfill}/></div>
                             <div className="card-body">
                                 <h6 className="card-title">SMT粘合剂、Under-Fill-Asec</h6>
-                                <Link to="/solutions/conformal-coating-glue"><a href="#" class="btn btn-primary ">查看详情</a></Link>
+                                <Link to="/solutions/smt/conformal-coating-glue"><a href="#" class="btn btn-primary ">查看详情</a></Link>
                             </div>
                         </div>
                     </section>

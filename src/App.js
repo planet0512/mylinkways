@@ -9,9 +9,8 @@ import Customers from "./customers"
 import IPM from "./products/ipm"
 import SPI from "./products/SPI"
 import TwoFiveX_RAY from "./25x_ray"
+import X_RAY_Counter from "./x_ray_counter"
 import Fluxing from "./products/fluxing";
-import X_RAY_Counter from "./x_ray_counter";
-import Conformal_Coating from "./products/conformal_coating";
 import Spea from "./spea";
 import SemiConductor from "./semiConductor";
 import AOI from "./AOI"
@@ -22,9 +21,9 @@ import OC_Scan from "./products/oc_scan";
 import Hyperion from "./products/hyperion";
 import Th1000S from "./products/th1000s";
 import Tr1000S from "./products/tr1000s";
-import { HashLink as Link } from 'react-router-hash-link';
 import Conformal_Coating_Product from "./products/conformal_coating_product";
 import Conformal_Coating_Glue from "./products/conformal_coating_glue";
+import Conformal_Coating from "./products/conformal_coating"
 import Linkways_Products from "./products/linkways_product";
 import Solutions from "./solutions";
 import Solutions_SMT from "./solutions_SMT";
@@ -48,10 +47,10 @@ class App extends Component {
                 <Route exaxt path='/solutions/semi-conductor/tr1000s' component={Tr1000S}/>
                 <Route exaxt path='/solutions/semi-conductor/th1000s' component={Th1000S}/>
                 <Route exaxt path='/solutions/smt/SPEA4060' component={Spea_4060}/>
-                <Route exaxt path='/solutions/smt/SPEA3030' component={Spea_3030}/>
+                    <Route exaxt path='/solutions/smt/SPEA3030' component={Spea_3030} />
                 <Route exaxt path='/solutions/smt/conformal-coating' component={Conformal_Coating}/>
-                    <Route exaxt path='/solutions/smt/conformal-coating/conformal-coating-prodcut' component={Conformal_Coating_Product}/>
-                <Route exaxt path='/solutions/smt/conformal-coating/conformal-coating-glue' component={Conformal_Coating_Glue}/>
+                    <Route exaxt path='/solutions/smt/conformal-coating-product' component={Conformal_Coating_Product}/>
+                <Route exaxt path='/solutions/smt/conformal-coating-glue' component={Conformal_Coating_Glue}/>
                 <Route exaxt path='/solutions/smt/spea' component={Spea}/>
                 <Route exaxt path='/solutions/smt/oc_scan' component={OC_Scan}/>
                 <Route exaxt path='/solutions/smt/hyperion' component={Hyperion}/>

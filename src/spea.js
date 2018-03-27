@@ -16,10 +16,10 @@ class Spea extends Component {
                 <h3>X光检测设备</h3>
                 <section className="row" id="SMT-product-page">
                     <section className="col-sm-4">
-                        <div className="card h-100"><Link to='/solutions/smt/product-detail'><div className="h-100"><img className="card-img-top img-responsive" src={spea4060}/> </div></Link>
+                        <div className="card h-100"><div className="h-100"><img className="card-img-top img-responsive" src={spea4060}/> </div>
                         <div className="card-body">
                     <h6 className="card-title">SPEA 4060</h6>
-                            <Link to="/solutions/SPEA4060"><a href="#" class="btn btn-primary">查看详情</a></Link>
+                            <Link to="/solutions/smt/SPEA4060"><a href="#" class="btn btn-primary">查看详情</a></Link>
 
                     </div>
                         </div>
@@ -28,7 +28,7 @@ class Spea extends Component {
                         <div className="card h-100"><div className="h-100"><img className="card-img-bottom img-responsive w-50 d-block mx-auto" src={spea3030}/></div>
                             <div className="card-body">
                                 <h6 className="card-title">SPEA 3030</h6>
-                                <Link to="/solutions/SPEA3030"><a href="#" class="btn btn-primary ">查看详情</a></Link>
+                                <Link to="/solutions/smt/SPEA3030"><a href="#" class="btn btn-primary ">查看详情</a></Link>
                             </div>
                         </div>
                     </section>

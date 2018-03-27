@@ -71,7 +71,7 @@ class Solutions_SMT extends Component {
                             <div className="card h-100"><Link to='/solutions/smt/product-detail'><div className="h-100"><img className="card-img-top img-responsive  d-block mx-auto w-50" src={interfux}/> </div></Link>
                                 <div className="card-body">
                                     <h6 className="card-title">助焊剂喷射机(Fluxing)</h6>
-                                    <Link to="/solutions/th1000s"><a href="#" class="btn btn-primary">查看详情</a></Link>
+                                    <Link to="/solutions/smt/fluxing"><a href="#" class="btn btn-primary">查看详情</a></Link>
 
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ class Solutions_SMT extends Component {
                             <div className="card h-100"><Link to='/solutions/smt/product-detail'><div className="h-100"><img className="card-img-top img-responsive d-block mx-auto w-30" src={hyperion}/> </div></Link>
                                 <div className="card-body">
                                     <h6 className="card-title">X光点料机</h6>
-                                    <Link to="/solutions/th1000s"><a href="#" class="btn btn-primary">查看详情</a></Link>
+                                    <Link to="/solutions/smt/x-ray"><a href="#" class="btn btn-primary">查看详情</a></Link>
 
                                 </div>
                             </div>
@@ -92,7 +92,7 @@ class Solutions_SMT extends Component {
                             <div className="card h-100"><div className="h-100"><img className="card-img-bottom img-responsive w-75 d-block mx-auto" src={conformal_coating}/></div>
                                 <div className="card-body">
                                     <h6 className="card-title">点胶机、Conformal Coating制程相关设备</h6>
-                                    <Link to="/solutions/tr1000s"><a href="#" class="btn btn-primary ">查看详情</a></Link>
+                                    <Link to="/solutions/conformal-coating"><a href="#" class="btn btn-primary ">查看详情</a></Link>
                                 </div>
                             </div>
                         </section>
@@ -100,7 +100,7 @@ class Solutions_SMT extends Component {
                             <div className="card h-100"><Link to='/solutions/smt/product-detail'><div className="h-100"><img className="card-img-top img-responsive  d-block mx-auto w-50" src={spea}/> </div></Link>
                                 <div className="card-body">
                                     <h6 className="card-title">飞针测试+在线ICT-SPEA</h6>
-                                    <Link to="/solutions/th1000s"><a href="#" class="btn btn-primary">查看详情</a></Link>
+                                    <Link to="/solutions/smt/spea"><a href="#" class="btn btn-primary">查看详情</a></Link>
 
                                 </div>
                             </div>

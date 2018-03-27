@@ -22,8 +22,8 @@ class SemiConductor extends Component {
                     <section className="col-sm-4">
                         <div className="card h-100"><div className="h-100"><img className="card-img-top img-responsive" src={th1000si}/> </div>
                         <div className="card-body">
-                    <h6 className="card-title">Vitrox - Th1000Si</h6>
-                            <Link to="/solutions/th1000s"><a href="#" class="btn btn-primary">查看详情</a></Link>
+                    <h6 className="card-title">Vitrox - TH1000Si</h6>
+                            <Link to="/solutions/semi-conductor/th1000s"><a href="#" class="btn btn-primary">查看详情</a></Link>
 
                     </div>
                         </div>
@@ -31,8 +31,8 @@ class SemiConductor extends Component {
                     <section className="col-sm-4">
                         <div className="card h-100"><div className="h-100"><img className="card-img-bottom img-responsive" src={tr1000si}/></div>
                             <div className="card-body">
-                                <h6 className="card-title">Vitrox - Th1000Si</h6>
-                                <Link to="/solutions/tr1000s"><a href="#" class="btn btn-primary ">查看详情</a></Link>
+                                <h6 className="card-title">Vitrox - TR1000Si</h6>
+                                <Link to="/solutions/semi-conductor/tr1000s"><a href="#" class="btn btn-primary ">查看详情</a></Link>
                             </div>
                         </div>
                     </section>
