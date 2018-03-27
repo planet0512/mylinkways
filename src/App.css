@@ -1,3 +1,11 @@
+
+/*body{
+  background-image:
+          linear-gradient(transparent 8px, rgba(220,220,200,.3) 9px, transparent 9px),
+          linear-gradient(90deg, transparent 8px, rgba(220,220,200,.3) 9px, transparent 9px);
+  background-size: 1% 9px, 9px 1%;
+}*/
+
 .App {
   text-align: center;
 }
@@ -25,4 +33,340 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+body {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+
+#bottom-nav{
+  background-color: #00B49D;
+}
+
+#bottom-nav a{
+  color: #ffffff;
+
+}
+
+
+.index-hero{
+  background: #4b4848;
+  background-image: url("./img/index-hero.jpg");
+  background-size: cover;
+  overflow: hidden;
+  height: 500px;
+  position: relative;
+  z-index: -1;
+  color: #fff;
+
+}
+.index-hero img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.index-hero::after{
+  position: absolute;
+  content: '';
+  left: 0;
+  top:0;
+  width:100%;
+  height: 100%;
+  background:rgba(41,69,125,.35) ;
+  z-index: 0;
+
+
+}
+
+
+.index-hero img{
+  position: relative;
+  z-index:2500;
+}
+
+.index-hero h3{
+  position: relative;
+  z-index:2500;
+}
+
+
+#mid_section{
+  margin: auto;
+  margin-bottom: 15px;
+  z-index: 1;
+  width: 100%;
+  border-bottom: solid 1px lightgray;
+
+}
+
+#mid_section img{
+  height: auto;
+}
+
+
+.landing_page_banner{
+  position: absolute;
+  margin: 30px;
+}
+
+.landing_page_banner h3 {
+  text-align: center;
+  margin: auto;
+}
+
+
+footer{
+  width: 100%;
+  margin-top: 50px;
+}
+
+
+.links li{
+  padding-right: 50px;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.top-nav{
+  padding:5px 20px 5px 20px;
+}
+
+.language{
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+.search{
+margin-top: 20px;
+}
+
+#card-section{
+  max-width: 980px;
+}
+
+
+#dropdown-a a{
+  color: black;
+}
+
+btco-menu li > a {
+  padding: 10px 15px;
+  color: #000;
+
+}
+
+.btco-menu .active a:focus,
+.btco-menu li a:focus ,
+.navbar > .show > a:focus{
+  background: transparent;
+  outline: 0;
+}
+
+
+.dropdown-menu .show > .dropdown-toggle::after{
+  transform: rotate(-90deg);
+}
+
+
+.middle {
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.middle h3{
+  text-align: center;
+
+}
+
+#landing_middle h4{
+  color: gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#carousel-middle{
+  margin: 40px;
+}
+
+.background{
+  background-image: url("./img/linkway_background.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.clients img{
+  width: 60%;
+  margin-top:auto;
+  margin-bottom:auto;
+
+}
+
+.col-sm-6 img{
+  width:100%;
+}
+
+.product-page h3{
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#SMT-product-page{
+  margin-bottom: 20px;
+}
+
+#SMT-product-page img{
+  width: 100%;
+
+}
+
+#SMT-product-page h4 {
+  text-align: center;
+}
+
+#intro {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#intro h4 {
+  text-align: center;
+  margin: auto;
+}
+
+.next {
+  position: relative;
+  background: #88b7d5;
+  border: 4px solid #c2e1f5;
+  border-radius: 10px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+#logos{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#logos img{
+  margin: auto;
+}
+
+#product-detail{
+  margin: auto;
+  text-align: center;
+}
+
+#product-detail li{
+  text-align: left;
+}
+
+.breadcrumb {
+  background: #fff;
+}
+#root{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.nav-pills{
+  border-bottom: solid gray 1px;
+  margin: auto;
+  text-align: center;
+}
+
+.nav-pills .nav-link.active, nav-pills .show > .nav-link{
+  color: #1c7430;
+  background-color: white;
+  border-bottom: solid 1px;
+  margin: auto;
+
+}
+
+.nav-pills .nav-link{
+  border-radius: 0px;
+  width: 40%;
+  margin: auto;
+}
+
+
+.nav-pills a{
+  color: gray;
+  background-color: white;
+}
+
+
+#lat2{
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+#lat2 img{
+  width: 30%;
+  display: block;
+  position: relative;
+  margin: auto;
+}
+
+
+.container{
+  border-bottom: solid 1px lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.w-30{
+  width: 30% !important;
+}
+
+.w-30 h3{
+  padding-bottom: 10px;
+}
+
+#icsf h3{
+  text-align: left;
+  margin: auto;
+}
+
+#all_products{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height:90%;
+}
+
+.col-sm-3 img{
+  display: block;
+  margin: auto;
+}
+
+.col-sm-2 img{
+  display: block;
+  margin: auto;
+}
+
+align-middle{
+  text-align: center;
+}
+
+.m-top{
+
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+#three_d{
+  text-align: center;
 }
